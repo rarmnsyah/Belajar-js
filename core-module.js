@@ -26,6 +26,8 @@ const rl = readline.createInterface({
 
 rl.question('Masukkan nama anda: ', (nama) => {
     rl.question('Masukkan umur anda: ', (umur) => {
+        var umur = parseInt(umur);
+        if (umur !== umur) throw new Error('Umur harus berupa angka');
         const orang = {
             nama,
             umur

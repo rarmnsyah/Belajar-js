@@ -1,0 +1,22 @@
+{
+  "name": "belajar",
+  "version": "1.0.0",
+  "description": "Belajar node-js-npm",
+  "main": "core-module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rarmnsyah/Belajar-js.git"
+  },
+  "author": "Risky Armansyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rarmnsyah/Belajar-js/issues"
+  },
+  "homepage": "https://github.com/rarmnsyah/Belajar-js#readme",
+  "dependencies": {
+    "validator": "^13.7.0"
+  }
+}
