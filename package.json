@@ -5,7 +5,8 @@
   "main": "core-module.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon core-module.js"
+    "start": "nodemon core-module.js",
+    "webdevhttp" : "nodemon main.js"
   },
   "repository": {
     "type": "git",
